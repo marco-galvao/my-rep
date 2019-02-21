@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Feb 20, 2019 7:49 PM",
+        "testExecutionTime": "261 ms",
+        "testTotalTime": "261 ms",
+        "commandTime": "3489 ms",
+        "hostname": "https://mlgalvao-dev-ed.my.salesforce.com",
+        "orgId": "00D0Y000000LRmRUAW",
+        "username": "mg@stepahead.pt",
+        "testRunId": "7071n00005FCuO8",
+        "userId": "0050Y000000tMcwQAE"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ4ZpEAL"
+            },
+            "Id": "07M1n00000CJ4ZpEAL",
+            "QueueItemId": "7091n000000jCqyAAE",
+            "StackTrace": "Class.c_Objeto1Viewer.metodo1: line 68, column 1\nClass.Test_Objeto1Viewer.test1: line 8, column 1",
+            "Message": "System.DmlException: Upsert failed. First exception on row 0; first error: INVALID_FIELD, No fields provided in an external foreign key reference in entity: Account: []",
+            "AsyncApexJobId": "7071n00005FCuO8AAL",
+            "MethodName": "test1",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p1n00000PWhquAAD"
+                },
+                "Id": "01p1n00000PWhquAAD",
+                "Name": "Test_Objeto1Viewer",
+                "NamespacePrefix": null
+            },
+            "RunTime": 261,
+            "FullName": "Test_Objeto1Viewer.test1"
+        }
+    ]
+}

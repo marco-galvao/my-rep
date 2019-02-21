@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2019-02-20T16:26:17+00:00" hostname="https://mlgalvao-dev-ed.my.salesforce.com" tests="1" failures="0"  errors="0"  time="0.02">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="1"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Feb 20, 2019 4:26 PM"/>
+            <property name="testExecutionTime" value="0.02 s"/>
+            <property name="testTotalTime" value="0.02 s"/>
+            <property name="commandTime" value="3.74 s"/>
+            <property name="hostname" value="https://mlgalvao-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D0Y000000LRmRUAW"/>
+            <property name="username" value="mg@stepahead.pt"/>
+            <property name="testRunId" value="7071n00005FCJaR"/>
+            <property name="userId" value="0050Y000000tMcwQAE"/>
+        </properties>
+        <testcase name="testTaskPriority" classname="TaskUtilTest" time="0.02">
+        </testcase>
+    </testsuite>
+</testsuites>

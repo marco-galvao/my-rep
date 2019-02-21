@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2019-02-20T19:49:55+00:00" hostname="https://mlgalvao-dev-ed.my.salesforce.com" tests="1" failures="1"  errors="0"  time="0.26">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="0"/>
+            <property name="failing" value="1"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="0%"/>
+            <property name="failRate" value="100%"/>
+            <property name="testStartTime" value="Feb 20, 2019 7:49 PM"/>
+            <property name="testExecutionTime" value="0.26 s"/>
+            <property name="testTotalTime" value="0.26 s"/>
+            <property name="commandTime" value="3.49 s"/>
+            <property name="hostname" value="https://mlgalvao-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D0Y000000LRmRUAW"/>
+            <property name="username" value="mg@stepahead.pt"/>
+            <property name="testRunId" value="7071n00005FCuO8"/>
+            <property name="userId" value="0050Y000000tMcwQAE"/>
+        </properties>
+        <testcase name="test1" classname="Test_Objeto1Viewer" time="0.26">
+            <failure message="System.DmlException: Upsert failed. First exception on row 0; first error: INVALID_FIELD, No fields provided in an external foreign key reference in entity: Account: []"><![CDATA[Class.c_Objeto1Viewer.metodo1: line 68, column 1
+Class.Test_Objeto1Viewer.test1: line 8, column 1]]></failure>
+        </testcase>
+    </testsuite>
+</testsuites>

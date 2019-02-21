@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Feb 20, 2019 4:37 PM",
+        "testExecutionTime": "26 ms",
+        "testTotalTime": "26 ms",
+        "commandTime": "4126 ms",
+        "hostname": "https://mlgalvao-dev-ed.my.salesforce.com",
+        "orgId": "00D0Y000000LRmRUAW",
+        "username": "mg@stepahead.pt",
+        "testRunId": "7071n00005FCMCX",
+        "userId": "0050Y000000tMcwQAE"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ46sEAD"
+            },
+            "Id": "07M1n00000CJ46sEAD",
+            "QueueItemId": "7091n000000jCqoAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCMCXAA5",
+            "MethodName": "testTaskPriority",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000jBhIQAU"
+                },
+                "Id": "01p0Y000000jBhIQAU",
+                "Name": "TaskUtilTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 26,
+            "FullName": "TaskUtilTest.testTaskPriority"
+        }
+    ]
+}

@@ -1,0 +1,742 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 30,
+        "passing": 24,
+        "failing": 6,
+        "skipped": 0,
+        "passRate": "80%",
+        "failRate": "20%",
+        "testStartTime": "Feb 20, 2019 4:22 PM",
+        "testExecutionTime": "11801 ms",
+        "testTotalTime": "10850 ms",
+        "commandTime": "14061 ms",
+        "hostname": "https://mlgalvao-dev-ed.my.salesforce.com",
+        "orgId": "00D0Y000000LRmRUAW",
+        "username": "mg@stepahead.pt",
+        "testRunId": "7071n00005FCIiP",
+        "userId": "0050Y000000tMcwQAE"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ45uEAD"
+            },
+            "Id": "07M1n00000CJ45uEAD",
+            "QueueItemId": "7091n000000jCqaAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testCountContacts",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000j9QUQAY"
+                },
+                "Id": "01p0Y000000j9QUQAY",
+                "Name": "AccountProcessorTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 634,
+            "FullName": "AccountProcessorTest.testCountContacts"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ46TEAT"
+            },
+            "Id": "07M1n00000CJ46TEAT",
+            "QueueItemId": "7091n000000jCqZAAU",
+            "StackTrace": "Class.AddPrimaryContact.execute: line 16, column 1",
+            "Message": "System.DmlException: Insert failed. First exception on row 0 with id 0011n0000209LxPAAU; first error: INVALID_FIELD_FOR_INSERT_UPDATE, cannot specify Id in an insert call: [Id]",
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "test",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000jAZkQAM"
+                },
+                "Id": "01p0Y000000jAZkQAM",
+                "Name": "AddPrimaryContactTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 1141,
+            "FullName": "AddPrimaryContactTest.test"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ46dEAD"
+            },
+            "Id": "07M1n00000CJ46dEAD",
+            "QueueItemId": "7091n000000jCqXAAU",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testAnimalCallout",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000001OTNCQA4"
+                },
+                "Id": "01p0Y000001OTNCQA4",
+                "Name": "AnimalLocatorTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 32,
+            "FullName": "AnimalLocatorTest.testAnimalCallout"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ46JEAT"
+            },
+            "Id": "07M1n00000CJ46JEAT",
+            "QueueItemId": "7091n000000jCqVAAU",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "test",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000jA8MQAU"
+                },
+                "Id": "01p0Y000000jA8MQAU",
+                "Name": "DailyLeadProcessorTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 912,
+            "FullName": "DailyLeadProcessorTest.test"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ46OEAT"
+            },
+            "Id": "07M1n00000CJ46OEAT",
+            "QueueItemId": "7091n000000jCqUAAU",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "test",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000j9nWQAQ"
+                },
+                "Id": "01p0Y000000j9nWQAQ",
+                "Name": "LeadProcessorTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 186,
+            "FullName": "LeadProcessorTest.test"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ46YEAT"
+            },
+            "Id": "07M1n00000CJ46YEAT",
+            "QueueItemId": "7091n000000jCqWAAU",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testTaskPriority",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000jBhIQAU"
+                },
+                "Id": "01p0Y000000jBhIQAU",
+                "Name": "TaskUtilTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 20,
+            "FullName": "TaskUtilTest.testTaskPriority"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ45aEAD"
+            },
+            "Id": "07M1n00000CJ45aEAD",
+            "QueueItemId": "7091n000000jCqSAAU",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testBoilingPoint",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000jAeMQAU"
+                },
+                "Id": "01p0Y000000jAeMQAU",
+                "Name": "TemperatureConverterTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 25,
+            "FullName": "TemperatureConverterTest.testBoilingPoint"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ45bEAD"
+            },
+            "Id": "07M1n00000CJ45bEAD",
+            "QueueItemId": "7091n000000jCqSAAU",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testFreezingPoint",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000jAeMQAU"
+                },
+                "Id": "01p0Y000000jAeMQAU",
+                "Name": "TemperatureConverterTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 5,
+            "FullName": "TemperatureConverterTest.testFreezingPoint"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ45cEAD"
+            },
+            "Id": "07M1n00000CJ45cEAD",
+            "QueueItemId": "7091n000000jCqSAAU",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testNegativeTemp",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000jAeMQAU"
+                },
+                "Id": "01p0Y000000jAeMQAU",
+                "Name": "TemperatureConverterTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 4,
+            "FullName": "TemperatureConverterTest.testNegativeTemp"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ45dEAD"
+            },
+            "Id": "07M1n00000CJ45dEAD",
+            "QueueItemId": "7091n000000jCqSAAU",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testWarmTemp",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000jAeMQAU"
+                },
+                "Id": "01p0Y000000jAeMQAU",
+                "Name": "TemperatureConverterTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 5,
+            "FullName": "TemperatureConverterTest.testWarmTemp"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ46EEAT"
+            },
+            "Id": "07M1n00000CJ46EEAT",
+            "QueueItemId": "7091n000000jCqbAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "TestDeleteAccountWithNoOpportunities",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000jC2eQAE"
+                },
+                "Id": "01p0Y000000jC2eQAE",
+                "Name": "TestAccountDeletion",
+                "NamespacePrefix": null
+            },
+            "RunTime": 973,
+            "FullName": "TestAccountDeletion.TestDeleteAccountWithNoOpportunities"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ46FEAT"
+            },
+            "Id": "07M1n00000CJ46FEAT",
+            "QueueItemId": "7091n000000jCqbAAE",
+            "StackTrace": "Class.TestAccountDeletion.TestDeleteAccountWithOneOpportunity: line 16, column 1",
+            "Message": "System.AssertException: Assertion Failed",
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "TestDeleteAccountWithOneOpportunity",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000jC2eQAE"
+                },
+                "Id": "01p0Y000000jC2eQAE",
+                "Name": "TestAccountDeletion",
+                "NamespacePrefix": null
+            },
+            "RunTime": 199,
+            "FullName": "TestAccountDeletion.TestDeleteAccountWithOneOpportunity"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ46GEAT"
+            },
+            "Id": "07M1n00000CJ46GEAT",
+            "QueueItemId": "7091n000000jCqbAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "TestDeleteBulkAccountsWithNoOpportunities",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000jC2eQAE"
+                },
+                "Id": "01p0Y000000jC2eQAE",
+                "Name": "TestAccountDeletion",
+                "NamespacePrefix": null
+            },
+            "RunTime": 2646,
+            "FullName": "TestAccountDeletion.TestDeleteBulkAccountsWithNoOpportunities"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ46HEAT"
+            },
+            "Id": "07M1n00000CJ46HEAT",
+            "QueueItemId": "7091n000000jCqbAAE",
+            "StackTrace": "Class.TestAccountDeletion.TestDeleteBulkAccountsWithOneOpportunity: line 50, column 1",
+            "Message": "System.AssertException: Assertion Failed",
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "TestDeleteBulkAccountsWithOneOpportunity",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000jC2eQAE"
+                },
+                "Id": "01p0Y000000jC2eQAE",
+                "Name": "TestAccountDeletion",
+                "NamespacePrefix": null
+            },
+            "RunTime": 3795,
+            "FullName": "TestAccountDeletion.TestDeleteBulkAccountsWithOneOpportunity"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ45kEAD"
+            },
+            "Id": "07M1n00000CJ45kEAD",
+            "QueueItemId": "7091n000000jCqcAAE",
+            "StackTrace": "Class.TestRestrictContactByName.test: line 5, column 1",
+            "Message": "System.DmlException: Insert failed. First exception on row 0; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, The Last Name \"INVALIDNAME\" is not allowed for DML: []",
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "test",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000jBtaQAE"
+                },
+                "Id": "01p0Y000000jBtaQAE",
+                "Name": "TestRestrictContactByName",
+                "NamespacePrefix": null
+            },
+            "RunTime": 285,
+            "FullName": "TestRestrictContactByName.test"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ45fEAD"
+            },
+            "Id": "07M1n00000CJ45fEAD",
+            "QueueItemId": "7091n000000jCqTAAU",
+            "StackTrace": "Class.TestVerifyDate.testDates: line 12, column 1",
+            "Message": "System.AssertException: Assertion Failed: Expected: 2016-09-08 00:00:00, Actual: 2016-09-09 00:00:00",
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testDates",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p0Y000000jBlaQAE"
+                },
+                "Id": "01p0Y000000jBlaQAE",
+                "Name": "TestVerifyDate",
+                "NamespacePrefix": null
+            },
+            "RunTime": 45,
+            "FullName": "TestVerifyDate.testDates"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ45pEAD"
+            },
+            "Id": "07M1n00000CJ45pEAD",
+            "QueueItemId": "7091n000000jCqYAAU",
+            "StackTrace": "Class.c_Objeto1Viewer.metodo1: line 68, column 1\nClass.Test_Objeto1Viewer.test1: line 8, column 1",
+            "Message": "System.DmlException: Upsert failed. First exception on row 0; first error: INVALID_FIELD, No fields provided in an external foreign key reference in entity: Account: []",
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "test1",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p1n00000PWhquAAD"
+                },
+                "Id": "01p1n00000PWhquAAD",
+                "Name": "Test_Objeto1Viewer",
+                "NamespacePrefix": null
+            },
+            "RunTime": 671,
+            "FullName": "Test_Objeto1Viewer.test1"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ45zEAD"
+            },
+            "Id": "07M1n00000CJ45zEAD",
+            "QueueItemId": "7091n000000jCqdAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testAfterDelete",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p1n00000PWjNWAA1"
+                },
+                "Id": "01p1n00000PWjNWAA1",
+                "Name": "Test_TriggerHandler",
+                "NamespacePrefix": null
+            },
+            "RunTime": 81,
+            "FullName": "Test_TriggerHandler.testAfterDelete"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ460EAD"
+            },
+            "Id": "07M1n00000CJ460EAD",
+            "QueueItemId": "7091n000000jCqdAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testAfterInsert",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p1n00000PWjNWAA1"
+                },
+                "Id": "01p1n00000PWjNWAA1",
+                "Name": "Test_TriggerHandler",
+                "NamespacePrefix": null
+            },
+            "RunTime": 9,
+            "FullName": "Test_TriggerHandler.testAfterInsert"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ461EAD"
+            },
+            "Id": "07M1n00000CJ461EAD",
+            "QueueItemId": "7091n000000jCqdAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testAfterUndelete",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p1n00000PWjNWAA1"
+                },
+                "Id": "01p1n00000PWjNWAA1",
+                "Name": "Test_TriggerHandler",
+                "NamespacePrefix": null
+            },
+            "RunTime": 7,
+            "FullName": "Test_TriggerHandler.testAfterUndelete"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ462EAD"
+            },
+            "Id": "07M1n00000CJ462EAD",
+            "QueueItemId": "7091n000000jCqdAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testAfterUpdate",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p1n00000PWjNWAA1"
+                },
+                "Id": "01p1n00000PWjNWAA1",
+                "Name": "Test_TriggerHandler",
+                "NamespacePrefix": null
+            },
+            "RunTime": 9,
+            "FullName": "Test_TriggerHandler.testAfterUpdate"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ463EAD"
+            },
+            "Id": "07M1n00000CJ463EAD",
+            "QueueItemId": "7091n000000jCqdAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testBeforeDelete",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p1n00000PWjNWAA1"
+                },
+                "Id": "01p1n00000PWjNWAA1",
+                "Name": "Test_TriggerHandler",
+                "NamespacePrefix": null
+            },
+            "RunTime": 11,
+            "FullName": "Test_TriggerHandler.testBeforeDelete"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ464EAD"
+            },
+            "Id": "07M1n00000CJ464EAD",
+            "QueueItemId": "7091n000000jCqdAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testBeforeInsert",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p1n00000PWjNWAA1"
+                },
+                "Id": "01p1n00000PWjNWAA1",
+                "Name": "Test_TriggerHandler",
+                "NamespacePrefix": null
+            },
+            "RunTime": 8,
+            "FullName": "Test_TriggerHandler.testBeforeInsert"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ465EAD"
+            },
+            "Id": "07M1n00000CJ465EAD",
+            "QueueItemId": "7091n000000jCqdAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testBeforeUpdate",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p1n00000PWjNWAA1"
+                },
+                "Id": "01p1n00000PWjNWAA1",
+                "Name": "Test_TriggerHandler",
+                "NamespacePrefix": null
+            },
+            "RunTime": 8,
+            "FullName": "Test_TriggerHandler.testBeforeUpdate"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ466EAD"
+            },
+            "Id": "07M1n00000CJ466EAD",
+            "QueueItemId": "7091n000000jCqdAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testBypassAPI",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p1n00000PWjNWAA1"
+                },
+                "Id": "01p1n00000PWjNWAA1",
+                "Name": "Test_TriggerHandler",
+                "NamespacePrefix": null
+            },
+            "RunTime": 11,
+            "FullName": "Test_TriggerHandler.testBypassAPI"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ467EAD"
+            },
+            "Id": "07M1n00000CJ467EAD",
+            "QueueItemId": "7091n000000jCqdAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testGetHandlerName",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p1n00000PWjNWAA1"
+                },
+                "Id": "01p1n00000PWjNWAA1",
+                "Name": "Test_TriggerHandler",
+                "NamespacePrefix": null
+            },
+            "RunTime": 6,
+            "FullName": "Test_TriggerHandler.testGetHandlerName"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ468EAD"
+            },
+            "Id": "07M1n00000CJ468EAD",
+            "QueueItemId": "7091n000000jCqdAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testLoopCount",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p1n00000PWjNWAA1"
+                },
+                "Id": "01p1n00000PWjNWAA1",
+                "Name": "Test_TriggerHandler",
+                "NamespacePrefix": null
+            },
+            "RunTime": 52,
+            "FullName": "Test_TriggerHandler.testLoopCount"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ469EAD"
+            },
+            "Id": "07M1n00000CJ469EAD",
+            "QueueItemId": "7091n000000jCqdAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testLoopCountClass",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p1n00000PWjNWAA1"
+                },
+                "Id": "01p1n00000PWjNWAA1",
+                "Name": "Test_TriggerHandler",
+                "NamespacePrefix": null
+            },
+            "RunTime": 7,
+            "FullName": "Test_TriggerHandler.testLoopCountClass"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ46AEAT"
+            },
+            "Id": "07M1n00000CJ46AEAT",
+            "QueueItemId": "7091n000000jCqdAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testNonTriggerContext",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p1n00000PWjNWAA1"
+                },
+                "Id": "01p1n00000PWjNWAA1",
+                "Name": "Test_TriggerHandler",
+                "NamespacePrefix": null
+            },
+            "RunTime": 8,
+            "FullName": "Test_TriggerHandler.testNonTriggerContext"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v45.0/tooling/sobjects/ApexTestResult/07M1n00000CJ46BEAT"
+            },
+            "Id": "07M1n00000CJ46BEAT",
+            "QueueItemId": "7091n000000jCqdAAE",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7071n00005FCIiPAAX",
+            "MethodName": "testVirtualMethods",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v45.0/tooling/sobjects/ApexClass/01p1n00000PWjNWAA1"
+                },
+                "Id": "01p1n00000PWjNWAA1",
+                "Name": "Test_TriggerHandler",
+                "NamespacePrefix": null
+            },
+            "RunTime": 6,
+            "FullName": "Test_TriggerHandler.testVirtualMethods"
+        }
+    ]
+}

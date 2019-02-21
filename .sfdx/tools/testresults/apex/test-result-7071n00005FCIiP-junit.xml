@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2019-02-20T16:22:27+00:00" hostname="https://mlgalvao-dev-ed.my.salesforce.com" tests="30" failures="6"  errors="0"  time="11.8">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="30"/>
+            <property name="passing" value="24"/>
+            <property name="failing" value="6"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="80%"/>
+            <property name="failRate" value="20%"/>
+            <property name="testStartTime" value="Feb 20, 2019 4:22 PM"/>
+            <property name="testExecutionTime" value="11.8 s"/>
+            <property name="testTotalTime" value="10.85 s"/>
+            <property name="commandTime" value="14.06 s"/>
+            <property name="hostname" value="https://mlgalvao-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D0Y000000LRmRUAW"/>
+            <property name="username" value="mg@stepahead.pt"/>
+            <property name="testRunId" value="7071n00005FCIiP"/>
+            <property name="userId" value="0050Y000000tMcwQAE"/>
+        </properties>
+        <testcase name="testCountContacts" classname="AccountProcessorTest" time="0.63">
+        </testcase>
+        <testcase name="test" classname="AddPrimaryContactTest" time="1.14">
+            <failure message="System.DmlException: Insert failed. First exception on row 0 with id 0011n0000209LxPAAU; first error: INVALID_FIELD_FOR_INSERT_UPDATE, cannot specify Id in an insert call: [Id]"><![CDATA[Class.AddPrimaryContact.execute: line 16, column 1]]></failure>
+        </testcase>
+        <testcase name="testAnimalCallout" classname="AnimalLocatorTest" time="0.03">
+        </testcase>
+        <testcase name="test" classname="DailyLeadProcessorTest" time="0.91">
+        </testcase>
+        <testcase name="test" classname="LeadProcessorTest" time="0.19">
+        </testcase>
+        <testcase name="testTaskPriority" classname="TaskUtilTest" time="0.02">
+        </testcase>
+        <testcase name="testBoilingPoint" classname="TemperatureConverterTest" time="0.03">
+        </testcase>
+        <testcase name="testFreezingPoint" classname="TemperatureConverterTest" time="0.01">
+        </testcase>
+        <testcase name="testNegativeTemp" classname="TemperatureConverterTest" time="0">
+        </testcase>
+        <testcase name="testWarmTemp" classname="TemperatureConverterTest" time="0.01">
+        </testcase>
+        <testcase name="TestDeleteAccountWithNoOpportunities" classname="TestAccountDeletion" time="0.97">
+        </testcase>
+        <testcase name="TestDeleteAccountWithOneOpportunity" classname="TestAccountDeletion" time="0.2">
+            <failure message="System.AssertException: Assertion Failed"><![CDATA[Class.TestAccountDeletion.TestDeleteAccountWithOneOpportunity: line 16, column 1]]></failure>
+        </testcase>
+        <testcase name="TestDeleteBulkAccountsWithNoOpportunities" classname="TestAccountDeletion" time="2.65">
+        </testcase>
+        <testcase name="TestDeleteBulkAccountsWithOneOpportunity" classname="TestAccountDeletion" time="3.8">
+            <failure message="System.AssertException: Assertion Failed"><![CDATA[Class.TestAccountDeletion.TestDeleteBulkAccountsWithOneOpportunity: line 50, column 1]]></failure>
+        </testcase>
+        <testcase name="test" classname="TestRestrictContactByName" time="0.29">
+            <failure message="System.DmlException: Insert failed. First exception on row 0; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, The Last Name &quot;INVALIDNAME&quot; is not allowed for DML: []"><![CDATA[Class.TestRestrictContactByName.test: line 5, column 1]]></failure>
+        </testcase>
+        <testcase name="testDates" classname="TestVerifyDate" time="0.05">
+            <failure message="System.AssertException: Assertion Failed: Expected: 2016-09-08 00:00:00, Actual: 2016-09-09 00:00:00"><![CDATA[Class.TestVerifyDate.testDates: line 12, column 1]]></failure>
+        </testcase>
+        <testcase name="test1" classname="Test_Objeto1Viewer" time="0.67">
+            <failure message="System.DmlException: Upsert failed. First exception on row 0; first error: INVALID_FIELD, No fields provided in an external foreign key reference in entity: Account: []"><![CDATA[Class.c_Objeto1Viewer.metodo1: line 68, column 1
+Class.Test_Objeto1Viewer.test1: line 8, column 1]]></failure>
+        </testcase>
+        <testcase name="testAfterDelete" classname="Test_TriggerHandler" time="0.08">
+        </testcase>
+        <testcase name="testAfterInsert" classname="Test_TriggerHandler" time="0.01">
+        </testcase>
+        <testcase name="testAfterUndelete" classname="Test_TriggerHandler" time="0.01">
+        </testcase>
+        <testcase name="testAfterUpdate" classname="Test_TriggerHandler" time="0.01">
+        </testcase>
+        <testcase name="testBeforeDelete" classname="Test_TriggerHandler" time="0.01">
+        </testcase>
+        <testcase name="testBeforeInsert" classname="Test_TriggerHandler" time="0.01">
+        </testcase>
+        <testcase name="testBeforeUpdate" classname="Test_TriggerHandler" time="0.01">
+        </testcase>
+        <testcase name="testBypassAPI" classname="Test_TriggerHandler" time="0.01">
+        </testcase>
+        <testcase name="testGetHandlerName" classname="Test_TriggerHandler" time="0.01">
+        </testcase>
+        <testcase name="testLoopCount" classname="Test_TriggerHandler" time="0.05">
+        </testcase>
+        <testcase name="testLoopCountClass" classname="Test_TriggerHandler" time="0.01">
+        </testcase>
+        <testcase name="testNonTriggerContext" classname="Test_TriggerHandler" time="0.01">
+        </testcase>
+        <testcase name="testVirtualMethods" classname="Test_TriggerHandler" time="0.01">
+        </testcase>
+    </testsuite>
+</testsuites>
